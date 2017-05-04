@@ -54,3 +54,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # bootstrap gem
 gem 'bootstrap', '~> 4.0.0.alpha6'
+
+# simple form gem
+gem 'simple_form'
+
+# devise gem
+gem 'devise'
