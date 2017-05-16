@@ -60,3 +60,12 @@ gem 'simple_form'
 
 # devise gem
 gem 'devise'
+
+# carrierwave gem
+gem 'carrierwave', '~> 1.0'
+
+# figaro gem
+gem 'figaro'
+
+# fog gem for carrierwave to communicate to amazon s3
+gem 'fog'
