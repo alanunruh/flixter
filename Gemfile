@@ -69,3 +69,6 @@ gem 'figaro'
 
 # fog gem for carrierwave to communicate to amazon s3
 gem 'fog'
+
+# minimagick gem - image resizing tool
+gem 'mini_magick'
