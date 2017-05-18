@@ -72,3 +72,6 @@ gem 'fog'
 
 # minimagick gem - image resizing tool
 gem 'mini_magick'
+
+# carrierwave-aws for larger video files
+gem 'carrierwave-aws'
