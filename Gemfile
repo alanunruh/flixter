@@ -75,3 +75,6 @@ gem 'mini_magick'
 
 # carrierwave-aws for larger video files
 gem 'carrierwave-aws'
+
+# stripe credit card payment
+gem 'stripe'
