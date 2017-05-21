@@ -78,3 +78,6 @@ gem 'carrierwave-aws'
 
 # stripe credit card payment
 gem 'stripe'
+
+# ranked-model to help with ordering
+gem 'ranked-model'
