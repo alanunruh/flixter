@@ -84,3 +84,6 @@ gem 'ranked-model'
 
 # ui for jquery
 gem 'jquery-ui-rails'
+
+# font icons
+gem 'font-awesome-rails'
