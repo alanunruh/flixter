@@ -64,14 +64,14 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-3">
-            <b>Teachers</b>
+            <b class="underline">Teachers</b>
             <br />
             <%= link_to 'Teach a Course', new_instructor_course_path %>
             <br />
             <%= link_to 'My Dashboard', dashboard_path %>
           </div>
           <div class="col-12 col-sm-3">
-            <b>About</b>
+            <b class="underline">About</b>
             <br />
             <%= link_to 'Team', 'team_path' %>
             <br />
@@ -80,25 +80,24 @@
             <%= link_to 'Privacy Policy', 'privacy_path' %>
           </div>
           <div class="col-12 col-sm-3">
-            <b>Contact</b>
+            <b class="underline">Contact</b>
             <br />
-            alan.unruh@gmail.com
+            <%= link_to 'alan.unruh@gmail.com', 'mailto:alan.unruh@gmail.com' %>
             <br />
             Hand crafted in Raleigh, NC
             <br />
           </div>
           <div class="col-12 col-sm-3 social">
-            <b>Social</b>
-            <br/>
+            <b class="underline">Social</b>
             <br/>
             <%= link_to 'https://github.com/alanunruh' do %>
               <span class="fa fa-github-square fa-2x social-button"></span>
             <% end %>
-            <%= link_to 'https://www.facebook.com/alan.unruh.7' do %>
-              <span class="fa fa-facebook-square fa-2x social-button"></span>
-            <% end %>
             <%= link_to 'https://twitter.com/alanunruh13' do %>
               <span class="fa fa-twitter-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://www.facebook.com/alan.unruh.7' do %>
+              <span class="fa fa-facebook-square fa-2x social-button"></span>
             <% end %>
           </div>
         </div>
