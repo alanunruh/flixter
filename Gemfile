@@ -53,7 +53,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # bootstrap gem
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
 # simple form gem
 gem 'simple_form'
@@ -87,3 +87,8 @@ gem 'jquery-ui-rails'
 
 # font icons
 gem 'font-awesome-rails'
+
+# Add tether
+source 'http://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
