@@ -2,6 +2,8 @@
 
 Flixter is a Udemy clone app that allows teachers/admins to sign up and create a course. It also allows students to enroll and submit payment for a course. Ultimately creating a fun learning environment!  
 
+*Technical description: A two sided video streaming marketplace platform, featuring credit card payment capabilities, user role management, complex user interfaces and advanced database relationships.*
+
 ## Features
 
 * Easy to use platform for admins/teachers to make courses and make money.
@@ -19,3 +21,7 @@ Flixter is a Udemy clone app that allows teachers/admins to sign up and create a
 * Users can be bother teachers and students with restricted admin access if making a teacher course.
 
 * Shows all courses that students are enrolled into & shows all courses teachers are teaching.
+
+## View It Live
+
+https://flixter-alan-unruh.herokuapp.com/
