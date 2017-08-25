@@ -1,24 +1,21 @@
-# README
+# Flixter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Flixter is a Udemy clone app that allows teachers/admins to sign up and create a course. It also allows students to enroll and submit payment for a course. Ultimately creating a fun learning environment!  
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+* Easy to use platform for admins/teachers to make courses and make money.
 
-* System dependencies
+* Stripe API is used to precess payments by steduents purchasing courses made by teachers.
 
-* Configuration
+* Teachers can customize couse lessons and sections.
 
-* Database creation
+* jQuery drag and drop is used for teachers when they create their own course. 
 
-* Database initialization
+* Uses Amazon Web Services (S3) for photos and videos.
 
-* How to run the test suite
+* Devise gem for user security, sign-in forms, etc.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Users can be bother teachers and students with restricted admin access if making a teacher course.
 
-* Deployment instructions
-
-* ...
+* Shows all courses that students are enrolled into & shows all courses teachers are teaching.
